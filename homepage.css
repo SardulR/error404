@@ -1,6 +1,11 @@
   *{
     scroll-behavior: smooth;  
   }
+  
+  a{
+    cursor: pointer;
+  }
+
   body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -454,7 +459,21 @@
     border-radius: 2px;
     border-left: 4px solid #ffffff5b;
     color: #ffffff;
-    
+  }
+  .p8-bottom-up-content img{
+    position: relative;
+    top: 0vh;
+    left: 0%;
+    height: 15px;
+    border-radius: 0;
+  }
+  .p8-bottom-up a{
+    position: relative;
+    top: -3vh;
+    left: 90%;
+    background: -webkit-linear-gradient(0deg, #FC72FF 0%, #8F68FF 25%, #487BFF 50%, #2CD9FF 75%, #2CFFCC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .p8-bottom-down{
